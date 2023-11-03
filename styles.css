@@ -31,3 +31,15 @@ button {
 button:hover {
     background-color: #eeeb32;
 }
+.product{
+    display:grid;
+    grid-template-rows: auto;
+    grid-area: auto;
+}
+.product{
+    display:flex;
+    height: 30%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(220, 144, 200);
+}
