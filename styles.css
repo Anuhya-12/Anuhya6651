@@ -6,11 +6,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    text-align: justify;
 }
 
 .products, .cart {
     float: left;
-    width: 75%;
+    width: 45%;
     margin: 0 2.5%;
 }
 
@@ -38,8 +39,6 @@ button:hover {
 }
 .product{
     display:flex;
-    height: 30%;
-    justify-content: space-between;
-    align-items: center;
+    height:250px;
     background-color: rgb(220, 144, 200);
 }
